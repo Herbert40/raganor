@@ -1,22 +1,22 @@
 {
-  "name": "raganork", 
-  "version": "2.0.1",
-  "description": "Raganork whatsapp bot- Multi device version.",
+  "name": "HBWABot", 
+  "version": "1.0",
+  "description": "This bot is created by Herbert ",
   "main": "./Raganork/index.js",
   "scripts": {
     "start": "supervisor -s index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/souravkl11/raganork-md.git"
+    "url": "git+https://github.com/Herbert40/raganor.git"
   },
   "keywords": [
     "whatsapp",
     "bot",
     "multi-device"
   ],
-  "author": "Sourav",
-  "developer": "@souravkl11",
+  "author": "HBABot",
+  "developer": "@Herbert",
   "license": "GPL-3.0-or-later",
   "bugs": {
     "url": "https://github.com/souravkl11/raganork/issues"
