@@ -33,13 +33,13 @@ Module({
   var myid = message.client.user.id.split(":")[0]
   var buttons = [{
     urlButton: {
-        displayText: 'Github',
-        url: 'https://github.com/souravkl11/raganork'
+        displayText: '𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺',
+        url: 'https://www.instagram.com/herbert_suantak2'
     }
 }, {
   urlButton: {
-    displayText: 'Contact Owner',
-    url: 'https://wa.me/'+BOT_INFO.split(";")[2]+'?text=Hey+bro'
+    displayText: '𝗬𝗼𝘂𝗧𝘂𝗯𝗲',
+    url: 'https://youtube.com/c/HBSuantakOfficialChannel'
     }
 }, {
     quickReplyButton: {
@@ -82,22 +82,18 @@ if (setarr[i].use === 'utility') {
   utilmsg += `┃❉│ ${Math.floor(parseInt(i)+1)}. ${setarr[i].pattern.toString().match(/(\W*)([A-Za-zğüşıiöç1234567890 ]*)/)[2]} \n`
 }
 }
-  var menu = `╭═══〘 ${BOT_INFO.split(";")[0]} 〙═══⊷❍
+  var menu = `╭═══〘 𝗛𝗕𝗪𝗔𝗕𝗼𝘁 〙═══⊷❍
 ┃❉╭──────────────
 ┃❉│
-┃❉│ Owner : ${BOT_INFO.split(";")[1]}
-┃❉│ User : ${message.senderName}
-┃❉│ Mode : ${MODE}
-┃❉│ Server : ${config.HEROKU.APP_NAME}
-┃❉│ Total RAM: ${total}
-┃❉│ Available RAM: ${used}
-┃❉│ Disk Space: 620 GB
-┃❉│ Version: ${config.VERSION}
+┃❉│ 𝗢𝘄𝗻𝗲𝗿 : Herbert Sauntak
+┃❉│ 𝗨𝘀𝗲𝗿 : ${message.senderName}
+┃❉│ 𝗠𝗼𝗱𝗲 : ${MODE}
+┃❉│ 𝗦𝗲𝗿𝘃𝗲𝗿 : HBMods
 ┃❉│
 ┃❉│
 ┃❉│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
 ┃❉│  ▎▍▌▌▉▏▎▌▉▐▏▌▎
-┃❉│   ${BOT_INFO.split(";")[0]}
+┃❉│    𝗛𝗕𝗪𝗔𝗕𝗼𝘁
 ┃❉│ 
 ┃❉╰───────────────
 ╰═════════════════⊷
