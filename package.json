@@ -19,9 +19,9 @@
   "developer": "@Herbert",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/souravkl11/raganork/issues"
+    "url": "git+https://github.com/Herbert40/raganor/issues"
   },
-  "homepage": "https://github.com/souravkl11/raganork#readme",
+  "homepage": "git+https://github.com/Herbert40/raganor/#readme",
   "dependencies": {
     "@adiwajshing/baileys": "4.1.0",
     "@adiwajshing/keyed-db":"0.2.4",
