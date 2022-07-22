@@ -1,11 +1,11 @@
 {
-	"name": "HBMods",
-	"description": "Herbert",
+	"name": "Deploy",
+	"description": "Wa Bot.",
 	"keywords": [
 		"whatsapp",
 		"bot"
 	],
-	"repository": "https://github.com/Herbert40/raganor",
+	"repository": "https://github.com/raganork-ind/whatsapp-bot",
 	"stack": "container",
     "env": { 
         "HANDLERS": {
@@ -41,7 +41,7 @@
         "STICKER_DATA": {
             "description": "Name of stickers created using bot. Can also split using ;",
             "required": true,
-            "value":"HBWABot"
+            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ"
         },
         "CHATBOT": {
             "description": "AI chatbot",
@@ -51,12 +51,12 @@
         "BOT_NAME": {
             "description": "Name of AI chatbot",
             "required": true,
-            "value":"HBWABot"
+            "value":"Raganork"
         },
         "AUDIO_DATA": {
             "description": "Name of audio (take) name;name;image(url)",
             "required": true,
-            "value":"HBWABot;HBWABot;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
+            "value":"ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg"
         },
         "MODE": {
             "description": "Private or public",
@@ -66,7 +66,7 @@
         "SUDO": {
             "description": "These numbers can control your bot. seperate with commas",
             "required": false,
-            "value":"918416093656"
+            "value":"919074309534"
         },
         "ALIVE": {
             "description": "Alive message {image/link}, {sender} can also be used",
@@ -75,7 +75,8 @@
         },
        "SESSION": {
             "description": "Your MD session",
-            "required": true,
+            "required": true
+             
         }
     },
     "addons": [{
