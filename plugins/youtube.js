@@ -126,17 +126,17 @@ Module({
   if (message.list && message.list.startsWith("ytsl") && message.list.includes(message.client.user.id.split("@")[0].split(":")[0])) {
   const buttons = [{
                               urlButton: {
-                                  displayText: '𝑊𝐴𝑇𝐶𝐻 𝑂𝑁 𝑌𝑂𝑈𝑇𝑈𝐵𝐸',
+                                  displayText: '𝙒𝙖𝙩𝙘𝙝 𝙤𝙣 𝙔𝙤𝙪𝙏𝙪𝙗𝙚',
                                   url: 'https://youtu.be/'+ message.list.split(";")[1]
                               }
                           }, {
                               quickReplyButton: {
-                                  displayText: '𝐴𝑈𝐷𝐼𝑂',
+                                  displayText: '𝘼𝙪𝙙𝙞𝙤',
                                   id: 'ytsa;' + message.client.user.id.split("@")[0].split(":")[0] + ";" + message.list.split(";")[1]
                               }  
                           }, {
                               quickReplyButton: {
-                                  displayText: '𝑉𝐼𝐷𝐸𝑂',
+                                  displayText: '𝙑𝙞𝙙𝙚𝙤',
                                   id: 'ytsv;' + message.client.user.id.split("@")[0].split(":")[0] + ";" + message.list.split(";")[1]
                               }
                           }]   
